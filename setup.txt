@@ -1,0 +1,5 @@
+Setup Prisma
+pnpm install prisma --save-dev
+npx prisma init // after this command need to update prisma/schema.prisma file before the below command 
+npx prisma db push
+npx prisma generate
